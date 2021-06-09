@@ -5,8 +5,8 @@
 An express.js server that will log any incoming requests to mongodb and then redirects to the [classic](https://www.youtube.com/watch?v=dQw4w9WgXcQ).
 
 ## How to run it?
-1. `git clone <link>`
-2. `cd <dir>`
+1. `git clone https://github.com/DuskDaleSpider/http-redirect-rickroll-server.git`
+2. `cd http-redirect-rickroll-server`
 3. `npm install`
 4. Set up the environment variables in a .env file
     - (Optional) RICKROLL_PORT 
