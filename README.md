@@ -12,11 +12,8 @@ An express.js server that will log any incoming requests to mongodb and then red
     - (Optional) RICKROLL_PORT 
         - Sets the port the server will start up on
     - (Required) MONGO_URL
-        - MongoDB server url
-    - (Required) MONGO_USER
-        - MongoDB username
-    - (Required) MONGO_PASS
-        - MongoDB user's password
+        - MongoDB connection url
+            - ex: mongodb://user:password@localhost/rickroll?authSource=admin
 6. `npm run start`  
 
 ### Built using
