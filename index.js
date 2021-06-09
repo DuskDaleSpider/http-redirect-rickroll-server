@@ -11,7 +11,7 @@ const logAndRedirct = (req, res) => {
     //1. log req in the mogo d
     let row = {
         date: Date().toString(),
-        ip: req.ip,
+        host: req.hostname,
         method: req.method,
         path: req.path,
         query: req.query,
