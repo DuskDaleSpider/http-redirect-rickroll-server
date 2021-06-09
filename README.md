@@ -17,7 +17,7 @@ An express.js server that will log any incoming requests to mongodb and then red
         - MongoDB username
     - (Required) MONGO_PASS
         - MongoDB user's password
-6. `npm start`  
+6. `npm run start`  
 
 ### Built using
 - Node.js
